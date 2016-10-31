@@ -14,7 +14,7 @@ $topbar-padding: 0.5rem !default;
 /// @type Color
 $topbar-background: $light-gray !default;
 
-/// Background color submenus within the top bar. Usefull if $topbar-background is transparent.
+/// Background color submenus within the top bar. Useful if $topbar-background is transparent.
 /// @type Color
 $topbar-submenu-background: $topbar-background !default;
 
@@ -49,7 +49,7 @@ $topbar-unstack-breakpoint: medium !default;
     background-color: $topbar-background;
   }
 
-  // Check if $topbar-background is differnt from $topbar-background-submenu
+  // Check if $topbar-background is different from $topbar-background-submenu
   @if ($topbar-background != $topbar-submenu-background) {
     ul ul {
       background-color: $topbar-submenu-background;
